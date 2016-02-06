@@ -1,0 +1,20 @@
+{
+  "name": "data-collector",
+  "version": "0.0.1",
+  "description": "Collect Data from all around",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape tests/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "kue": "^0.10.5",
+    "kue-ui": "^0.1.0",
+    "lodash": "^4.2.1"
+  }
+}
