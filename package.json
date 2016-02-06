@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "tape tests/**/*.js"
+    "test": "standard && tape tests/**/*.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "standard": "^6.0.1",
     "tape": "^4.4.0"
   },
   "dependencies": {
